@@ -1,0 +1,8 @@
+prefix=/home/chas/catkin_chas/devel
+
+Name: dji_sdk
+Description: Description of dji_sdk
+Version: 0.1.9
+Cflags: -I/home/chas/catkin_chas/devel/include -I/home/chas/catkin_chas/src/dji_sdk/include
+Libs: -L/home/chas/catkin_chas/devel/lib 
+Requires: message_runtime actionlib actionlib_msgs geometry_msgs nav_msgs std_msgs dji_sdk_lib
